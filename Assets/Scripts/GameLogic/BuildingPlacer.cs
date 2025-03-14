@@ -1,6 +1,9 @@
 ﻿using System.Collections.Generic;
 using UnityEngine;
+<<<<<<< HEAD
 using UnityEngine.InputSystem;
+=======
+>>>>>>> 2711060c0d2046b5668dc813c532ce45327c656e
 
 namespace Game.GameLogic
 {
@@ -11,6 +14,7 @@ namespace Game.GameLogic
         private Building currentBuilding;
         private bool isDeleteMode = false; // Флаг удаления
         private int buildingsIndex = 0;
+<<<<<<< HEAD
         private Color originalColor; // Переменная для хранения цвета
 
         private PlayerInput playerInput;
@@ -61,6 +65,45 @@ namespace Game.GameLogic
             placeBuildingAction.performed += ctx => TryPlaceBuilding();
             toggleDeleteModeAction.performed += ctx => ToggleDeleteMode();
 
+=======
+
+        private void Update()
+        {
+            Vector3 mouseWorldPos = GetMouseWorldPosition();
+            Vector2Int gridPos = gridSystem.GetGridPosition(mouseWorldPos);
+            Vector3 worldPos = gridSystem.GetCellCenter(gridPos.x, gridPos.y);
+
+            if (isDeleteMode) // Если режим удаления включен
+            {
+                if (Input.GetMouseButtonDown(0)) // При нажатии ЛКМ удаляем
+                {
+                    TryDeleteBuilding(gridPos);
+                }
+                return;
+            }
+
+            if (currentBuilding != null)
+            {
+                Vector3 adjustedWorldPos = worldPos;
+                adjustedWorldPos.y = buildingPrefab[buildingsIndex].GetHeight() / 2f; // Выставляем на уровень поверхности
+
+                currentBuilding.transform.position = Vector3.Lerp(
+                    currentBuilding.transform.position,
+                    adjustedWorldPos,
+                    Time.deltaTime * 10f
+                );
+
+                if (Input.GetMouseButtonDown(0))
+                {
+                    PlaceBuilding(gridPos, adjustedWorldPos);
+                }
+            }
+
+        }
+
+        private void Awake()
+        {
+>>>>>>> 2711060c0d2046b5668dc813c532ce45327c656e
             LoadBuildings();
         }
 
@@ -69,6 +112,7 @@ namespace Game.GameLogic
             SaveBuildings();
         }
 
+<<<<<<< HEAD
         private void TryPlaceBuilding()
         {
             Vector3 mouseWorldPos = GetMouseWorldPosition();
@@ -86,6 +130,8 @@ namespace Game.GameLogic
                 PlaceBuilding(gridPos, worldPos);
             }
         }
+=======
+>>>>>>> 2711060c0d2046b5668dc813c532ce45327c656e
 
         public void StartPlacingBuilding()
         {
@@ -95,10 +141,13 @@ namespace Game.GameLogic
             currentBuilding = Instantiate(buildingPrefab[buildingsIndex]);
             currentBuilding.BuildingTypeIndex = buildingsIndex; // Устанавливаем индекс типа
 
+<<<<<<< HEAD
             Renderer renderer = currentBuilding.GetComponentInChildren<Renderer>();
             if (renderer != null)
                 originalColor = renderer.material.color;
 
+=======
+>>>>>>> 2711060c0d2046b5668dc813c532ce45327c656e
             Vector3 mouseWorldPos = GetMouseWorldPosition();
             Vector2Int gridPos = gridSystem.GetGridPosition(mouseWorldPos);
             Vector3 worldPos = gridSystem.GetCellCenter(gridPos.x, gridPos.y);
@@ -110,6 +159,10 @@ namespace Game.GameLogic
             isDeleteMode = false;
         }
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2711060c0d2046b5668dc813c532ce45327c656e
         private void PlaceBuilding(Vector2Int gridPos, Vector3 worldPos)
         {
             if (gridSystem.IsCellOccupied(gridPos)) return;
@@ -118,9 +171,12 @@ namespace Game.GameLogic
 
             currentBuilding.SetGridPosition(gridPos, worldPos);
             gridSystem.OccupyCell(gridPos, currentBuilding);
+<<<<<<< HEAD
 
             SetBuildingColor(originalColor);
 
+=======
+>>>>>>> 2711060c0d2046b5668dc813c532ce45327c656e
             currentBuilding = null;
         }
 
@@ -145,7 +201,11 @@ namespace Game.GameLogic
 
         private Vector3 GetMouseWorldPosition()
         {
+<<<<<<< HEAD
             Ray ray = Camera.main.ScreenPointToRay(Mouse.current.position.ReadValue());
+=======
+            Ray ray = Camera.main.ScreenPointToRay(Input.mousePosition);
+>>>>>>> 2711060c0d2046b5668dc813c532ce45327c656e
             Plane groundPlane = new Plane(Vector3.up, Vector3.zero);
 
             if (groundPlane.Raycast(ray, out float enter))
@@ -179,6 +239,12 @@ namespace Game.GameLogic
             BuildingServer.SaveBuildings(buildings);
         }
 
+<<<<<<< HEAD
+=======
+
+
+
+>>>>>>> 2711060c0d2046b5668dc813c532ce45327c656e
         private void LoadBuildings()
         {
             List<BuildingData> buildings = BuildingServer.LoadBuildings();
@@ -204,5 +270,9 @@ namespace Game.GameLogic
                 Debug.Log($"Загружено здание: Тип {newBuilding.BuildingTypeIndex}, Позиция {data.gridPosition}");
             }
         }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2711060c0d2046b5668dc813c532ce45327c656e
     }
 }

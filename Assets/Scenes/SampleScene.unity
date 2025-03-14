@@ -1091,7 +1091,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1607482501}
   - component: {fileID: 1607482500}
+<<<<<<< HEAD
   - component: {fileID: 1607482502}
+=======
+>>>>>>> 2711060c0d2046b5668dc813c532ce45327c656e
   m_Layer: 0
   m_Name: Building Placer
   m_TagString: Untagged
@@ -1131,6 +1134,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+<<<<<<< HEAD
 --- !u!114 &1607482502
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1173,6 +1177,8 @@ MonoBehaviour:
   m_DefaultActionMap: Game
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+=======
+>>>>>>> 2711060c0d2046b5668dc813c532ce45327c656e
 --- !u!1 &1631546671
 GameObject:
   m_ObjectHideFlags: 0

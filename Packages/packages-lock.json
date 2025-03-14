@@ -69,6 +69,7 @@
       "dependencies": {},
       "url": "https://packages.unity.com"
     },
+<<<<<<< HEAD
     "com.unity.inputsystem": {
       "version": "1.7.0",
       "depth": 0,
@@ -78,6 +79,8 @@
       },
       "url": "https://packages.unity.com"
     },
+=======
+>>>>>>> 2711060c0d2046b5668dc813c532ce45327c656e
     "com.unity.performance.profile-analyzer": {
       "version": "1.2.2",
       "depth": 1,

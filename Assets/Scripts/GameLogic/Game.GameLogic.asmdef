@@ -2,8 +2,12 @@
     "name": "Game.GameLogic",
     "rootNamespace": "",
     "references": [
+<<<<<<< HEAD
         "GUID:f8fd1336e70214b40b16c9c78b080c35",
         "GUID:75469ad4d38634e559750d17036d5f7c"
+=======
+        "GUID:f8fd1336e70214b40b16c9c78b080c35"
+>>>>>>> 2711060c0d2046b5668dc813c532ce45327c656e
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
