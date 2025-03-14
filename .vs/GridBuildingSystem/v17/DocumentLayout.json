@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\andry\\GridBuildingSystem\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4F7C8-5C48-0026-0957-D911B0C1A882}|Game.GameLogic.csproj|c:\\users\\andry\\gridbuildingsystem\\assets\\scripts\\gamelogic\\buildingserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4F7C8-5C48-0026-0957-D911B0C1A882}|Game.GameLogic.csproj|solutionrelative:assets\\scripts\\gamelogic\\buildingserver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4F7C8-5C48-0026-0957-D911B0C1A882}|Game.GameLogic.csproj|c:\\users\\andry\\gridbuildingsystem\\assets\\scripts\\gamelogic\\buildingplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4F7C8-5C48-0026-0957-D911B0C1A882}|Game.GameLogic.csproj|solutionrelative:assets\\scripts\\gamelogic\\buildingplacer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4F7C8-5C48-0026-0957-D911B0C1A882}|Game.GameLogic.csproj|C:\\Users\\andry\\GridBuildingSystem\\assets\\scripts\\gamelogic\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4F7C8-5C48-0026-0957-D911B0C1A882}|Game.GameLogic.csproj|solutionrelative:assets\\scripts\\gamelogic\\building.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{35C4F7C8-5C48-0026-0957-D911B0C1A882}|Game.GameLogic.csproj|C:\\Users\\andry\\GridBuildingSystem\\assets\\scripts\\gamelogic\\gridsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{35C4F7C8-5C48-0026-0957-D911B0C1A882}|Game.GameLogic.csproj|solutionrelative:assets\\scripts\\gamelogic\\gridsystem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BuildingServer.cs",
+              "DocumentMoniker": "C:\\Users\\andry\\GridBuildingSystem\\Assets\\Scripts\\GameLogic\\BuildingServer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameLogic\\BuildingServer.cs",
+              "ToolTip": "C:\\Users\\andry\\GridBuildingSystem\\Assets\\Scripts\\GameLogic\\BuildingServer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameLogic\\BuildingServer.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAxwA8AAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T22:43:29.492Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BuildingPlacer.cs",
+              "DocumentMoniker": "C:\\Users\\andry\\GridBuildingSystem\\Assets\\Scripts\\GameLogic\\BuildingPlacer.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameLogic\\BuildingPlacer.cs",
+              "ToolTip": "C:\\Users\\andry\\GridBuildingSystem\\Assets\\Scripts\\GameLogic\\BuildingPlacer.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameLogic\\BuildingPlacer.cs",
+              "ViewState": "AgIAAIUAAAAAAAAAAAAIwI0AAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T12:15:43.327Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Building.cs",
+              "DocumentMoniker": "C:\\Users\\andry\\GridBuildingSystem\\Assets\\Scripts\\GameLogic\\Building.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameLogic\\Building.cs",
+              "ToolTip": "C:\\Users\\andry\\GridBuildingSystem\\Assets\\Scripts\\GameLogic\\Building.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameLogic\\Building.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T12:13:02.653Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "GridSystem.cs",
+              "DocumentMoniker": "C:\\Users\\andry\\GridBuildingSystem\\Assets\\Scripts\\GameLogic\\GridSystem.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\GameLogic\\GridSystem.cs",
+              "ToolTip": "C:\\Users\\andry\\GridBuildingSystem\\Assets\\Scripts\\GameLogic\\GridSystem.cs",
+              "RelativeToolTip": "Assets\\Scripts\\GameLogic\\GridSystem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-13T12:04:14.989Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
