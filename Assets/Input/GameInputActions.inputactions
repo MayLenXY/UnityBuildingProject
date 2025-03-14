@@ -1,0 +1,74 @@
+{
+    "name": "GameInputActions",
+    "maps": [
+        {
+            "name": "Game",
+            "id": "988b5ab3-76a3-4004-a57c-d6ed765c695f",
+            "actions": [
+                {
+                    "name": "Move",
+                    "type": "Value",
+                    "id": "4cf968cb-0912-4d2f-85fa-68a8cc827bbd",
+                    "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": true
+                },
+                {
+                    "name": "PlaceBuilding",
+                    "type": "Button",
+                    "id": "7ec3a234-22e2-4cc9-b92d-ed39b66a26da",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "ToggleDeleteMode",
+                    "type": "Button",
+                    "id": "e2d1847b-d27c-4aa5-9cfa-a2ef787ca4f0",
+                    "expectedControlType": "Button",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                }
+            ],
+            "bindings": [
+                {
+                    "name": "",
+                    "id": "333306d4-9466-43c8-85db-5b155c364457",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "PlaceBuilding",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "4444bdf7-84d2-448f-92c1-ef3165d04ba3",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "ToggleDeleteMode",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "ba90295c-4f46-438d-a6c5-d2cc9d3e2280",
+                    "path": "Mouse Delta",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Move",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                }
+            ]
+        }
+    ],
+    "controlSchemes": []
+}

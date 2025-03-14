@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.Core", "Game.Core.csproj", "{088882AB-C8DA-0366-A74C-BC359927DFFB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{9DDC52A8-DAB8-FCBC-5530-A018FE25C171}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Game.GameLogic", "Game.GameLogic.csproj", "{CAF538F8-387A-3339-270C-B817339E9AEA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{088882AB-C8DA-0366-A74C-BC359927DFFB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{088882AB-C8DA-0366-A74C-BC359927DFFB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{088882AB-C8DA-0366-A74C-BC359927DFFB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{088882AB-C8DA-0366-A74C-BC359927DFFB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DDC52A8-DAB8-FCBC-5530-A018FE25C171}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DDC52A8-DAB8-FCBC-5530-A018FE25C171}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DDC52A8-DAB8-FCBC-5530-A018FE25C171}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DDC52A8-DAB8-FCBC-5530-A018FE25C171}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CAF538F8-387A-3339-270C-B817339E9AEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CAF538F8-387A-3339-270C-B817339E9AEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CAF538F8-387A-3339-270C-B817339E9AEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CAF538F8-387A-3339-270C-B817339E9AEA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
